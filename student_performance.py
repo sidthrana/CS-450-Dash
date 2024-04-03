@@ -3,7 +3,6 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 import plotly.express as px
 import pandas as pd
-import numpy as np
 import plotly.graph_objects as go
 
 
@@ -77,8 +76,6 @@ app.layout = html.Div(className="parent_container", children=[
 ])
 
 # Callbacks to update the graphs based on user input
-
-import numpy as np
 
 # Callback to update graph1 based on checklist selection
 @app.callback(
