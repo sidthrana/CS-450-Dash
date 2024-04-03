@@ -1,0 +1,6 @@
+pip install dash
+pip install pandas
+pip install seaborn
+pip install scikit-learn
+pip install numpy
+python3 student_performance.py
